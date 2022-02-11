@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Visual="Material"
+             x:Class="AplusApp.Pages.LoginPage">
+
+    <StackLayout>
+        <StackLayout Margin="40,20" Spacing="50">
+
+            <StackLayout Spacing="50">
+                <Frame BorderColor="#000">
+                    <Entry
+                        x:Name="LoginEntry"
+                        Margin="-20,-25"
+                        Placeholder="Логин"
+                        VerticalOptions="CenterAndExpand" />
+                </Frame>
+                <Frame BorderColor="#000">
+                    <Entry
+                        x:Name="PasswordEntry"
+                        Margin="-20,-25"
+                        Placeholder="Пароль"
+                        VerticalOptions="CenterAndExpand" />
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
